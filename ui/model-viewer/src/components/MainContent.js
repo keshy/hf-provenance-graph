@@ -16,7 +16,8 @@ function MainContent(){
         setShowQuery
       } = useSearchTranslate();
     return (
-        <div className="col-md-8">
+      <div className="col-md-8">
+        <div className="col-md-8"></div>
         <SearchBar showQuery={showQuery} searchQuery={searchQuery} setSearchQuery={setSearchQuery} translate={translate} setShowQuery={setShowQuery} setTranslatedQuery={setTranslatedQuery} />
         <QueryDisplay translatedQuery={translatedQuery} showQuery={showQuery}/>
 

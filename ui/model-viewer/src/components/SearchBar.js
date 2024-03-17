@@ -5,8 +5,9 @@ import React from 'react';
 function SearchBar(props) {
 
     return (
-        <div className="card mb-3">
-          <div className="mt-3"></div>
+    <div>
+        <div className="mt-3"></div>
+        <div className="card">
             <h4 align='left'>Search</h4>
           <div className="card-body">
             <input
@@ -30,6 +31,7 @@ function SearchBar(props) {
               Reset
             </button>
           </div>
+        </div>
         </div>
     )
 }
